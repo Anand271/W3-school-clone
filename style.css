@@ -1,0 +1,736 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--second);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* Colors */
+
+:root{
+    --main:MediumSeaGreen;
+    --main-dark: SeaGreen;
+
+    --second:#282A36;
+    --second-dark: #1f2229;
+
+    --html-color: #D9EDE1;
+    --html-color-dark: #c5d6cc;
+
+    --yellow-color:#FFF4A4;
+    --yellow-color-dark:#f1e47f;
+
+    --example-color:#E8E9EB;
+
+    --python-color:#F4ECEA;
+    --python-color-dark:#e9e0de;
+
+    --inner-code-color:#15202B;
+
+    --sql-color:#96D4D3;
+    --sql-color-dark:#8dc9c8;
+
+
+    --pink-color-dark:rgb(236, 178, 188);
+    --pink-color:pink;
+}
+
+/* Utility Classes */
+
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+
+/*nav Start */
+
+
+
+
+nav.topbar{
+    background-color:white;
+    color: black;
+    font-family: "Raleway-semibold";
+   
+}
+
+.container{
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+#main-logo{
+    width: 45px;
+    height: 45px;
+}
+
+nav .nav-content-1 .dropdown-logo{
+    width: 15px;
+    height: 15px;
+}
+
+
+nav.topbar .nav-content-1 a{
+     
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: bold;
+     letter-spacing: 0.065rem;
+}
+
+nav.topbar .nav-content-1 li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 1.8rem 1rem;
+}
+
+nav.topbar .nav-content-1 li:hover{
+    background-color: var(--main);
+    color: white;
+}
+
+nav.topbar .nav-content-1 li:hover a{
+    color: white;
+}
+
+nav.topbar .nav-content-1 li:last-child span{
+    font-size: 11px;
+    font-weight: 100;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+
+
+/* 2nd part */
+
+nav .auth a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+}
+
+nav .auth a img:last-child{
+    margin-right: 0.5rem;
+}
+
+nav .auth div a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    background-color: var(--main);
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+nav .auth div a:first-child{
+    background-color: pink;
+}
+
+nav .auth div a:first-child:hover{
+    background-color: var(--main);
+    color: white;
+}
+
+nav .auth div a:first-child span{
+    font-size: 11px;
+    font-weight: 100;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;  
+}
+
+nav .auth div a:nth-child(2){
+    background-color: white;
+}
+
+nav .auth div a:nth-child(2):hover{
+    background-color: var(--main);
+    color: white;
+}
+
+nav .auth div a:last-child{
+    padding: 1rem 2.5rem;
+    transition: all .2s ease;
+    color: white;
+}
+
+nav .auth div a:last-child:hover{
+   background-color: var(--main-dark);
+   color: white;
+}
+/* End Header  */
+
+
+/* Hero start */
+
+
+ section.hero{
+     width: 100%;
+     height: 500px;
+    background-color:var(--second);
+ }
+
+ section.hero div{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+     
+ }
+
+ section.hero div h1{
+     font-size: 10vh;
+     margin-top: 6.5rem;
+ }
+
+ section.hero div h3{
+     color: pink;
+     font-size: 3.4vh;
+     margin-top: 1.5rem;
+ }
+
+ section.hero div div{
+     height: 50px;
+     width: 500px;
+     flex-direction: row;
+     background-color: white;
+    display: flex;
+    border-radius: 30px;
+    margin-top: 1.8rem;
+ }
+
+ section.hero div div input{
+    width: 80%;
+    border: none;
+    margin-left: 20px;
+    font-size: 1rem;
+ }
+
+ section.hero div div input:focus{
+     outline: none;
+ }
+
+ section.hero div div button{
+    width: 20%;
+    height: 50px;
+    border: none;
+    background: var(--main);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+    border-radius: 0 30px  30px 0;
+ }
+
+ section.hero div div button:hover{
+     background-color: var(--main-dark);
+ }
+
+ section.hero div div img{
+     height: 25px;
+     width: 25px;
+ }
+ section.hero div a{
+     color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    margin-top: 1.7rem;
+ }
+
+ section.hero div a:hover{
+     color: var(--main);
+ }
+/* End Hero  */
+
+
+
+/* Image  */
+
+
+
+
+
+/* Start HTML Section */
+
+
+
+
+/* Part-1 */
+
+div.section{
+    background-color: var(--html-color);
+    display: flex;
+   margin-top: -3.5px;
+}
+
+
+div.section>div:first-child{
+ width: 100%;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+padding: 5%;
+}
+
+div.section>div:first-child h1{
+    font-size: 13vh;
+    letter-spacing: 0.25rem;
+    margin-bottom: 20px;
+}
+
+div.section>div:first-child p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.07rem;
+    margin-top: 10px;
+}
+
+
+div.section>div:first-child a.first-a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--main);
+    margin: 10px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    width: 33vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    transition: all 0.3 ease;
+}
+
+
+div.section>div:first-child a.first-a:hover{
+    background-color: var(--main-dark);
+}
+
+
+div.section>div:first-child a.second-a{
+    text-decoration: none;
+    color: black;
+    background-color: var(--yellow-color);
+    margin: 10px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    width: 33vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    transition: all 0.3 ease;
+}
+
+
+div.section>div:first-child a.second-a:hover{
+    background-color: var(--yellow-color-dark);
+}
+
+div.section>div:first-child a.second-a span{
+    width: 60px;
+    font-size: 13px;
+    font-weight:550;
+    padding: 5px 8px;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-20deg);
+    background-color: pink;
+    border-radius: 20px;
+   margin-top: -1.8%;
+   margin-left: -16%;
+}
+
+div.section>div:first-child a.therd-a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--second);
+    margin: 10px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    width: 33vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    transition: all 0.3 ease;
+}
+
+
+div.section>div:first-child a.therd-a:hover{
+    background-color: var(--second-dark);
+}
+
+/* Part-2 */
+
+div.section>div:nth-child(2){
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+div.section>div:nth-child(2)>div{
+    background-color: var(--example-color);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 15px;
+}
+
+
+div.section>div:nth-child(2)>div h3{
+    font-size: 1.5rem;
+    letter-spacing: 0.06rem;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+div.section>div:nth-child(2)>div pre{
+    background-color: var(--inner-code-color);
+    color: white;
+    padding: 7px;
+    font-size: 1rem;
+    padding-right: 35vh;
+    margin: 7px 5px;
+}
+
+
+div.section>div:nth-child(2)>div a{
+
+    text-decoration: none;
+    color: white;
+    background-color: var(--main);
+    margin: 10px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    width: 33vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    transition: all 0.3 ease;
+}
+
+
+div.section>div:nth-child(2)>div a:hover{
+    background-color: var(--main-dark);
+}
+/* End HTML Section */
+
+
+/*  CSS Section Start */
+
+.css-section{
+    background-color: var(--yellow-color);
+}
+
+/* End CSS Section */
+
+
+/* JavaScript */
+
+
+#js-btn-1, #js-btn-2{
+    padding: 12px 18px;
+}
+
+#js-btn-2{
+    background-color: var(--python-color);
+    color: black;
+}
+
+#js-btn-2:hover{
+    background-color: var(--python-color-dark);
+    
+}
+
+#js-pre{
+    padding-right: 10vh;
+}
+
+
+/* Python */
+
+#py-btn{
+    padding:12px 20px ;
+}
+
+
+
+
+
+/* third-phase */
+
+
+
+section#third-phase{
+    background-color: var(--second);
+}
+
+section.third-phase>div{
+    margin-top:7vh;
+}
+
+section.third-phase>div>div{
+    float: left;
+    width: 45%;
+    height: 40vh;
+    background-color: gray;
+    margin: 4.6vh;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+section.third-phase>div>div h3{
+    font-size: 2.5rem;
+}
+
+section.third-phase>div>div p{
+    opacity: 0.7;
+    font-size: 1rem;
+    margin-top: 3.5vh;
+    margin-bottom: 6vh;
+}
+
+section.third-phase>div>div a{
+    text-decoration: none;
+    background-color: var(--second);
+    color: white;
+    padding: 12px 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+section.third-phase>div>div a:hover{
+    background-color: black;
+}
+
+
+/* Forth Phase  Start*/
+
+
+section.forth-phase{
+    margin-top: 150vh;
+    
+}
+
+section.forth-phase div{
+    float: left;
+    width: 19%;
+    margin:2.7% 3%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+section.forth-phase div a{
+    text-decoration: none;
+    color: black;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+#cyber-security{
+     padding: 40px 20px;
+}
+
+
+
+.color-1{
+  background-color: var(--pink-color-dark);
+  transition: all 0.2 ease;
+}
+
+.color-1:hover{
+  background-color: var(--pink-color);
+}
+
+.color-2{
+   background-color: var(--yellow-color-dark);
+  transition: all 0.2 ease;
+}
+
+.color-2:hover{
+ background-color: var(--yellow-color);
+}
+
+.color-3{
+    background-color: var(--python-color-dark);
+  transition: all 0.2 ease;
+}
+
+.color-3:hover{
+    background-color: var(--python-color);
+}
+
+.color-4{
+   background-color: var(--html-color-dark);
+  transition: all 0.2 ease;
+}
+
+.color-4:hover{
+    background-color: var(--html-color);
+}
+
+.color-5{
+   background-color: var(--sql-color-dark);
+  transition: all 0.2 ease;
+}
+
+.color-5:hover{
+    background-color: var(--sql-color);
+}
+
+/* fifth-phase */
+
+section.fifth-phase{
+
+}
+
+section.fifth-phase div{
+    float: left;
+    width: 44%;
+    margin:2.4% 3%;
+    
+    border-radius: 10px;
+}
+
+section.fifth-phase div a{
+    padding: 6vh 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: black;
+}
+
+
+
+
+/* Code Editor section */
+
+section.code-editor{
+    
+   
+}
+
+section.code-editor div:first-child{
+   /* margin: 0 12.5%; */
+   position: relative;
+   align-items: center;
+    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   margin-left: -1px;
+}
+
+section.code-editor div:first-child h1{
+    color: white;
+    margin-top: 15vh;
+    font-size: 4rem;
+
+}
+
+section.code-editor div:first-child p{
+    color: white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 4vh;
+}
+
+
+section.code-editor div:nth-child(2){
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 25vh;
+
+}
+
+section.code-editor div:nth-child(2) a{
+    background-color: gray;
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+
+section.code-editor div:nth-child(2) a:first-child{
+    color: white;
+    background-color: var(--main);
+}
+
+section.code-editor div:nth-child(2) a:nth-child(2){
+    color: black;
+    background-color: var(--yellow-color);
+    margin-left: 2vh;
+}
+
+
+
+/* W3Schools Spaces */
+
+section.W3Schools-Spaces{
+    background-image: url(img/dad-son.jpg);
+    background:linear-gradient( rgba(35,43,56,0.9), rgba(35,43,56,0.9) ),
+       
+       url(img/dad-son.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-attachment: fixed;
+}
